@@ -12,6 +12,7 @@ before_script:
   - mysql -e "create database IF NOT EXISTS knex;" -uroot
   - mysql -Dknex -uroot < test/fixtures/travis.sql
 script:
+  - npm run instrument
   - npm test
 after_success:
-  - cat lcov-report.lcov | ./node_modules/.bin/codecov
+  - cat lcov.info | ./node_modules/.bin/codecov
