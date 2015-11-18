@@ -1,7 +1,17 @@
 describe 'splitter', ->
   describe 'splitter()', ->
-    it 'split phone number', ->
-      pack = splitter.splitter '0768223333'
-      assert.ok pack[0] == '0768'
-      assert.ok pack[1] == '22'
-      assert.ok pack[2] == '3333'
+    context 'when finded prefix', ->
+      it 'returns split phone number', ->
+        result = splitter.splitter '0768223333'
+
+        assert.ok result[0] == '0768'
+        assert.ok result[1] == '22'
+        assert.ok result[2] == '3333'
+
+    context 'when unkown prefix', ->
+      it 'returns default value', ->
+        result = splitter.splitter '9999'
+
+        assert.ok result[0] == '9999'
+        assert.ok result[1] == ''
+        assert.ok result[2] == ''
