@@ -4,7 +4,7 @@
   "description": "The phone number splitter for Japanese",
   "main": "lib/index.js",
   "files": [
-    "lib/*.js",
+    "lib/**/*.js",
     "README.md"
   ],
   "scripts": {
