@@ -1,7 +1,7 @@
 {
   "name": "tel-splitter-jp",
   "version": "0.1.0",
-  "description": "tel-splitter-jp",
+  "description": "The phone number splitter for Japanese",
   "main": "lib/index.js",
   "files": [
     "lib/*.js",
