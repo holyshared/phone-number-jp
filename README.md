@@ -1,5 +1,6 @@
 # tel-splitter-jp
 
+[![npm version](https://badge.fury.io/js/tel-splitter-jp.svg)](http://badge.fury.io/js/tel-splitter-jp)
 [![Build Status](https://travis-ci.org/holyshared/tel-splitter-jp.svg?branch=master)](https://travis-ci.org/holyshared/tel-splitter-jp)
 [![codecov.io](https://codecov.io/github/holyshared/tel-splitter-jp/coverage.svg?branch=master)](https://codecov.io/github/holyshared/tel-splitter-jp?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/564c17884e32b6001800036c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/564c17884e32b6001800036c)
