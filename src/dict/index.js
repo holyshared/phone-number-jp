@@ -5,8 +5,13 @@ import length5 from './length5';
 
 const mapFrom = (object) => {
   return {
+//    object: object,
     contains(key) {
-      return object[key] !== undefined && object[key] !== null;
+      const value = object[key];
+      return !!value;
+    },
+    at(key) {
+      return object[key];
     }
   };
 };
