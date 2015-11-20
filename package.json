@@ -1,5 +1,5 @@
 {
-  "name": "tel-splitter-jp",
+  "name": "phone-number-jp",
   "version": "0.1.3",
   "description": "The phone number splitter for Japanese",
   "main": "lib/index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holyshared/tel-splitter-jp.git"
+    "url": "git+https://github.com/holyshared/phone-number-jp.git"
   },
   "author": "Noritaka Horio <holy.shared.design@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holyshared/tel-splitter-jp/issues"
+    "url": "https://github.com/holyshared/phone-number-jp/issues"
   },
-  "homepage": "https://github.com/holyshared/tel-splitter-jp#readme",
+  "homepage": "https://github.com/holyshared/phone-number-jp#readme",
   "devDependencies": {
     "babel-cli": "^6.1.2",
     "babel-preset-es2015": "^6.1.2",
