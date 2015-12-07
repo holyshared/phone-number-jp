@@ -11,3 +11,5 @@ script:
   - npm test
 after_success:
   - cat lcov.info | ./node_modules/.bin/codecov
+notifications:
+  email: false
