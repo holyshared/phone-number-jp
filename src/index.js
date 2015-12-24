@@ -3,7 +3,7 @@ import { len5, len4, len3, len2 } from './dict';
 export default {
 
   split(phoneNumber) {
-    const unkown = [ phoneNumber, '', '' ];
+    const unkown = [ phoneNumber ];
 
     for (let dict of [ len5, len4, len3, len2 ]) {
       const prefix = dict.prefixFrom(phoneNumber);

@@ -13,11 +13,14 @@ describe 'splitter', ->
         result = splitter.split '9999'
 
         assert.ok result[0] == '9999'
-        assert.ok result[1] == ''
-        assert.ok result[2] == ''
 
   describe 'format()', ->
     context 'when finded prefix', ->
       it 'returns split phone number', ->
         result = splitter.format '0768223333'
         assert.ok result == '0768-22-3333'
+
+    context 'when not finded prefix', ->
+      it 'returns non split phone number', ->
+        result = splitter.format '44411112222'
+        assert.ok result == '44411112222'
