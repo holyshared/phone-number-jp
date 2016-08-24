@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/phone-number-jp.svg)](https://badge.fury.io/js/phone-number-jp)
 [![Build Status](https://travis-ci.org/holyshared/phone-number-jp.svg?branch=master)](https://travis-ci.org/holyshared/phone-number-jp)
-[![codecov.io](https://codecov.io/github/holyshared/phone-number-jp/coverage.svg?branch=master)](https://codecov.io/github/holyshared/phone-number-jp?branch=master)
+[![codecov](https://codecov.io/gh/holyshared/phone-number-jp/branch/master/graph/badge.svg)](https://codecov.io/gh/holyshared/phone-number-jp)
 [![dependencies Status](https://david-dm.org/holyshared/phone-number-jp/status.svg)](https://david-dm.org/holyshared/phone-number-jp)
 
 ## Installation
